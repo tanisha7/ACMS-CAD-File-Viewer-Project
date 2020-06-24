@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> 
+        </script>
+        <script src = "functionsSVG.js"></script> 
+
+    </head>
+    <body style="text-align:center;">
+
+        <input type = "text" placeholder = "Enter element id" name= "ID" id = "svgID" value = "" style=" width:10rem;height: 2rem;border: 1.5px solid Grey;" required autocomplete="off">
+        <button type = "submit" id = "getID" onclick="applyCSS()" style='color:White;background-color:Teal;border:none;border-radius:20%;font-size:1rem;padding: 10px 10px;text-decoration:none;display: inline-block;' name="Submit">
+        Style Element</button>
+        <object id = "svg_object" data="cadFile.svg" width="100%" height="100%" type="image/svg+xml"></object>
+
+        <script type="text/javascript">
+            window.addEventListener("load",loadSVG);
+        </script>
+
+    </body>
+</html>
