@@ -1,0 +1,17 @@
+*:hover{
+  stroke: skyblue !important;
+  stroke-width: 2 !important;   
+}
+.click{
+stroke: red !important;
+stroke-width: 2 !important;
+}
+.cluster_rack_shelf{
+  stroke:salmon !important;
+  stroke-width: 2 !important;
+}
+.bin{
+  stroke:lightgreen !important;
+  stroke-width: 2 !important;
+}
+    
